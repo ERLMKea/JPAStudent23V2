@@ -25,6 +25,11 @@ public class StudentRestController {
     }
 
 
+    @GetMapping("/hello")
+    public String helloWorld() {
+        return "Hello World";
+    }
+
     @GetMapping("/students")
     public List<Student> getStudents() {
         return studentRepository.findAll();
