@@ -17,15 +17,7 @@ public class Student {
     private String name;
     private LocalDate bornDate;
     private LocalTime bornTime;
-    private String lastname;
 
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
 
     public int getId() {
         return id;
